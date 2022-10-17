@@ -1,0 +1,11 @@
+article {
+    opacity: 0;
+    left: -100%;
+    transition: opacity 300ms ease-in;
+}
+
+.show-time article {
+    opacity: 1;
+    left: 0;
+}
+
